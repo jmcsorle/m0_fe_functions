@@ -7,10 +7,13 @@
     // using `node cleanUp.js` or copy and paste into a replit
 
 
-// EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+// EX 1: I added a line break before `console.log` and before the last `}` so that the code block was formatted correctly. I also used a `return` in the function and moved the `console.log` outside of the function. This gives the developer more control over how to use the function and when to write the `return` to the console.
 
-askForName()
+function askForName() { 
+  return "Hello, what is your name?" 
+}
+
+console.log(askForName());
 
 
 // EX 2:
