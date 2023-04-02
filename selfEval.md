@@ -1,4 +1,6 @@
 # Self-Evaluation
 
 - Reflect on your learning and work today. What are you most proud of?
+  - I am proud that I was able to finish everything and get the code to work. I got really frustrated with #5 of the functions.js assignment because the word "undefined" kept printing after each line. I walked away from it for a few minutes and then realized that I had used console.log inside the function and again when I called the function. Once I removed console.log from the lines where I was calling the function, the word, "undefined" went away.
 - In your own words, why are functions a powerful tool in our applications?
+  - Functions are a powerful tool because they save time and reduce the amount of code, which in turn improves performance (e.g. makes the application run faster by having fewer lines of code to process). If there are calculations, or complex processes you know you're going to need to use frequently, you can put them in a function so that you can reuse those functions whenever you need them.

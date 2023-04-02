@@ -61,10 +61,10 @@ function square(number) {
 // // => "Salsa - running LOW"
 
 function checkStock(stockValue, item) {
-    if (`${stockValue}` >= 4) {
+    if (stockValue >= 4) {
       console.log(`${item} is stocked.`);
       }
-    else if(`${stockValue}` < 4 && `${stockValue}` >= 1) {
+    else if(stockValue < 4 && stockValue >= 1) {
       console.log(`${item} - running LOW.`);
         }
     else {
